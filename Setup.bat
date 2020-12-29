@@ -24,17 +24,19 @@ cls
 set O=\
 set /p DIR=Insert the directory you want your YTLOADER to be in(for example D:\Files):
 if ""%DIR:~-1%""==""%O%"" set  DIR=%DIR:~0,-1% 
+set DIR=%L: =%
 cls
 cd /D C:\
 if NOT EXIST ffmpeg goto continue
 echo "Your ffmpeg will be overwritten, you can deny that by exiting this prompt."
 pause
 :continue
-if EXIST ffmpeg rmdir /s /q C:\ffmpeg\
+if EXIST ffmpeg rmdir /s C:\ffmpeg\
 mkdir ffmpeg
 cd /D %DIR%\
 if NOT EXIST Youtube-Loader goto further
-rmdir /s /q %DIR%\youtube-loader\
+echo %DIR%
+rmdir /s "%DIR%\youtube-loader\"
 :further
 cd /D %DIR%\
 mkdir Youtube-Loader
@@ -45,7 +47,7 @@ mkdir Media
 cd C:\ffmpeg\
 cls
 echo Installing the first package...
-powershell -Command "Start-BitsTransfer -Source "https://dl.dropboxusercontent.com/s/iy5o3dmaiuzbwnb/ddd.zip?dl=0&file_subpath=%2Fddd" -Destination "C:\ffmpeg\ddd.zip""
+powershell -Command "Start-BitsTransfer -Source "https://dl.dropboxusercontent.com/s/loaomktqxwy6wnq/ddd.zip?dl=0" -Destination "C:\ffmpeg\ddd.zip""
 cls
 echo Unzipping Data...
 powershell -Command "Expand-Archive C:\ffmpeg\ddd.zip -DestinationPath C:\ffmpeg"
