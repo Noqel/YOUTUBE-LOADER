@@ -24,7 +24,7 @@ cls
 set O=\
 set /p DIR=Insert the directory you want your YTLOADER to be in(for example D:\Files):
 if ""%DIR:~-1%""==""%O%"" set  DIR=%DIR:~0,-1% 
-set DIR=%L: =%
+set DIR=%DIR: =%
 cls
 cd /D C:\
 if NOT EXIST ffmpeg goto continue
