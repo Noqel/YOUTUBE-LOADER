@@ -58,7 +58,7 @@ set SCRIPT="%TEMP%\%RANDOM%-%RANDOM%-%RANDOM%-%RANDOM%.vbs"
 echo Set oWS = WScript.CreateObject("WScript.Shell") >> %SCRIPT%
 echo sLinkFile = "%DIR%\youtube-loader\YTLOADER.lnk" >> %SCRIPT%
 echo Set oLink = oWS.CreateShortcut(sLinkFile) >> %SCRIPT%
-echo oLink.IconLocation = "C:\ffmpeg\bin\ico.ico" >> %SCRIPT%
+echo oLink.IconLocation = "C:\ffmpeg\bin\123.ico" >> %SCRIPT%
 echo oLink.TargetPath = "C:\ffmpeg\bin\YTLOADER.bat" >> %SCRIPT%
 echo oLink.Save >> %SCRIPT%
 cscript /nologo %SCRIPT%
@@ -67,7 +67,7 @@ set SCRIPT="%TEMP%\%RANDOM%-%RANDOM%-%RANDOM%-%RANDOM%.vbs"
 echo Set oWS = WScript.CreateObject("WScript.Shell") >> %SCRIPT%
 echo sLinkFile = "%DIR%\youtube-loader\ChangeMode.lnk" >> %SCRIPT%
 echo Set oLink = oWS.CreateShortcut(sLinkFile) >> %SCRIPT%
-echo oLink.IconLocation = "C:\ffmpeg\bin\ico.ico" >> %SCRIPT%
+echo oLink.IconLocation = "C:\ffmpeg\bin\123.ico" >> %SCRIPT%
 echo oLink.TargetPath = "C:\ffmpeg\bin\ChangeMode.bat" >> %SCRIPT%
 echo oLink.Save >> %SCRIPT%
 cscript /nologo %SCRIPT%
@@ -76,7 +76,7 @@ set SCRIPT="%TEMP%\%RANDOM%-%RANDOM%-%RANDOM%-%RANDOM%.vbs"
 echo Set oWS = WScript.CreateObject("WScript.Shell") >> %SCRIPT%
 echo sLinkFile = "%DIR%\youtube-loader\uninstall.lnk" >> %SCRIPT%
 echo Set oLink = oWS.CreateShortcut(sLinkFile) >> %SCRIPT%
-echo oLink.IconLocation = "C:\ffmpeg\bin\ico.ico" >> %SCRIPT%
+echo oLink.IconLocation = "C:\ffmpeg\bin\123.ico" >> %SCRIPT%
 echo oLink.TargetPath = "C:\ffmpeg\bin\uninstall.bat" >> %SCRIPT%
 echo oLink.Save >> %SCRIPT%
 cscript /nologo %SCRIPT%
