@@ -5,4 +5,4 @@
 
 2.https://github.com/Noqel/YOUTUBE-LOADER/releases/tag/3.0
 
-3.(experimental)
+3.(integrated Crunchyroll-Downloader)
