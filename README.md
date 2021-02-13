@@ -6,7 +6,7 @@
 
 2.https://github.com/Noqel/YOUTUBE-LOADER/releases/tag/4.0 (integrated Crunchyroll-Downloader)
 
-3.https://github.com/Noqel/YOUTUBE-LOADER/releases/tag/4.5 (better version)
+3.https://github.com/Noqel/YOUTUBE-LOADER/releases/tag/4.5 (better version of the CrunchyRoll-Downloader)
 
   https://github.com/Noqel/YOUTUBE-LOADER/releases/tag/AddOns (AddOns for the YOUTUBE-LOADER)
     
